@@ -1,6 +1,6 @@
 # return.multiple.py
 def moddiv(a, b):
-    return a // b, a % b
+    return a // b, a % b  # return a tuple: multiple values
 
 
 def test(n=10**4):
