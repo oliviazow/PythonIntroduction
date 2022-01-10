@@ -8,5 +8,3 @@ def main():
     print(net_conn)
     print(my_math.square(10))
     core.func1()
-
-main()

@@ -1,0 +1,13 @@
+from pathlib import Path
+p = Path('fear.txt')
+print(p.is_file())
+print(p.exists())
+parent_path = p.parent.absolute()
+print(parent_path)
+print(parent_path.is_dir())
+print(parent_path.exists())
+grand_parent = parent_path.parent.absolute()
+print(grand_parent)
+not_exist = Path(str(grand_parent) + '/NOT_EXIST')
+print(not_exist)
+print(not_exist.exists())

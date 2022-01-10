@@ -9,4 +9,3 @@ def main():
     print(my_math.square(10))
     core.func1()
 
-main()
